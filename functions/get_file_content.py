@@ -1,4 +1,10 @@
 import os
+from google.genai import types
+
+schema_get_file_content = types.FunctionDeclaration(
+
+)
+
 
 def get_file_content(working_directory, file_path):
     abs_working_path = os.path.abspath(working_directory) # 绝对路径-long
